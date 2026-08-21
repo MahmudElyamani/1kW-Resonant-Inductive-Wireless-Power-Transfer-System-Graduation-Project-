@@ -13,6 +13,18 @@
 
 ---
 
+## 📚 Documentation
+
+- [Design Methodology & Equations](docs/methodology.md)
+- [Electromagnetic Simulation (Ansys Maxwell)](docs/em-simulation.md)
+- [WPT Coil Design (AutoCAD)](WPT%20Coil%20design)
+- [System Modeling (MATLAB/Simulink)](docs/simulink-model.md)
+- [Power Electronics (Altium, SiC H-bridge)](docs/power-electronics.md)
+- [Embedded Control (STM32)](docs/control-firmware.md)
+- [Full Project Book (PDF)](docs/project-book.pdf) 
+
+---
+
 ## System Specifications and technical Information
 
 | | |
@@ -92,24 +104,6 @@ The build breaks into four subsystems, each documented in depth:
 
 ---
 
-## 🛠️ Repository Structure
-
-```
-hardware/     Altium project — inverter PCB, schematics, gerbers, BOM
-firmware/     STM32CubeIDE project — HF switching control
-simulation/   Ansys Maxwell 3D/Simplorer files, MATLAB/Simulink models
-docs/         Subsystem deep-dives, equations, misalignment data
-media/        Photos, graphs, flowchart, demo video
-```
-
-## 📚 Documentation
-
-- [Design Methodology & Equations](docs/methodology.md)
-- [Electromagnetic Simulation (Ansys Maxwell)](docs/em-simulation.md)
-- [System Modeling (MATLAB/Simulink)](docs/simulink-model.md)
-- [Power Electronics (Altium, SiC H-bridge)](docs/power-electronics.md)
-- [Embedded Control (STM32)](docs/control-firmware.md)
-- [Full Project Book (PDF)](docs/project-book.pdf) — complete 179-page writeup for anyone who wants every detail
 
 ## 🧪 Skills Demonstrated
 
