@@ -1,19 +1,19 @@
-# ⚡ Resonant Inductive Wireless EV Charger — 823W Prototype
+# Resonant Inductive Wireless EV Charger — 823W Prototype
 
 > A practical 1kW-class resonant inductive wireless power transfer (WPT) prototype for EV charging, using square-shaped Litz-wire coils and SS compensation. Delivers **823 W DC** at **77.5% efficiency** across a **15 cm air gap**, compliant with the **SAE J2954** international WPT standard.
 
 ![banner](media/banner.jpeg)
 
-
+> Full Power System Model
 ![Full Power System Model](media/MatlabSimulation.PNG)
 
-
+> Result showcase and output
 ![Result showcase and output](media/DC_Voltage.PNG)
 ![Result showcase and output](media/CurrentReading.PNG)
 
 ---
 
-## 🔑 At a Glance
+## System Specifications and technical Information
 
 | | |
 |---|---|
@@ -29,12 +29,13 @@
 
 ---
 
-## 🧠 What This Project Does
+## Main Idea and Theory Behind the Project
 
 Electric vehicle wireless charging works by transferring power across an air gap using magnetically coupled resonant coils instead of a physical cable. This project designs, simulates, and physically builds a working 1kW-class version of that system: a high-frequency inverter drives a transmitting coil, energy couples across the air gap to a receiving coil tuned to the same resonant frequency, and the received AC is rectified back to usable DC power. The design was validated in three independent ways — hand-derived circuit equations, Ansys Maxwell 3D electromagnetic field simulation, and MATLAB/Simulink system modeling — before being built and measured on the bench.
 
+> Electromagnetic field Simulation on Ansys
 ![Electromagnetic field Simulation on Ansys](media/Coils.PNG)
-*The chosen coil topology with the mentioned input power, field intensity differes with the color legend.*
+*The chosen coil topology with the mentioned input power, field intensity differs with the color legend.*
 
 The system was tested across **52 distinct misalignment positions** (horizontal, vertical, and combined/rotational) to characterize how coupling coefficient and efficiency degrade as the vehicle's receiver coil drifts out of alignment with the ground pad — a real-world condition any production wireless charger has to tolerate.
 
@@ -57,21 +58,26 @@ The build breaks into four subsystems, each documented in depth:
 ---
 
 ## 📊 Key Results
+
+> Output Graph Results on Ansys
 ![Output Graph Results on Ansys](media/CouplingGraph.PNG)
 *relationship between vertical misalignment in Z-axis and coupling coefficient.*
 
 ![Output Graph Results on Ansys](media/Coupling3D.PNG)
 *relationship between horizontal misalignment in X-axis, vertical misalignment in Z-axis and coupling coefficient*
 
+> Coupling coefficient vs misalignment
 ![coupling coefficient vs misalignment](media/K_M1.PNG)
 ![coupling coefficient vs misalignment](media/K_M2.PNG)
 ![coupling coefficient vs misalignment](media/K_M3.PNG)
 *Coupling coefficient (K) vs. horizontal/vertical coil misalignment across 52 tested positions*
 
+> Output Graph Results on Ansys
 ![Output Graph Results on Ansys](media/TL_I.PNG)
 ![Output Graph Results on Ansys](media/TL_V.PNG)
 *Current over time and voltage over time output result graphs on simulation*
 
+> Virtual vs Actual values comparison
 ![Virtual vs Actual values comparison](media/VirtualActual.PNG)
 *Measured vs. theoretical efficiency: 77.5% practical vs. 98.21% ideal (MATLAB model, no magnetic/switching losses) — the gap that comes from real-world loss mechanisms not captured in the ideal model*
 
