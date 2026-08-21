@@ -77,6 +77,14 @@ The build breaks into four subsystems, each documented in depth:
 ![Output Graph Results on Ansys](media/TL_V.PNG)
 *Current over time and voltage over time output result graphs on simulation*
 
+> Output power relation with operating frequency change
+![Output Graph Results on Ansys](freqpwr.PNG)
+*The output power peaks at the resonant frequency range then starts dimming again due to being out of resonance*
+
+> Efficiency relation with operating frequency change
+![Output Graph Results on Ansys](freqeff.PNG)
+*The efficiency peaks at the resonant frequency range then starts dimming again due to being out of resonance*
+
 > Virtual vs Actual values comparison
 ![Virtual vs Actual values comparison](media/VirtualActual.PNG)
 *Measured vs. theoretical efficiency: 77.5% practical vs. 98.21% ideal (MATLAB model, no magnetic/switching losses) — the gap that comes from real-world loss mechanisms not captured in the ideal model*
