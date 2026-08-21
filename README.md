@@ -78,11 +78,11 @@ The build breaks into four subsystems, each documented in depth:
 *Current over time and voltage over time output result graphs on simulation*
 
 > Output power relation with operating frequency change
-![Frequency Graph with Power](freqpwr.PNG)
+![Frequency Graph with Power](media/freqpwr.PNG)
 *The output power peaks at the resonant frequency range then starts dimming again due to being out of resonance*
 
 > Efficiency relation with operating frequency change
-![Frequency Graph with Efficiency](freqeff.PNG)
+![Frequency Graph with Efficiency](media/freqeff.PNG)
 *The efficiency peaks at the resonant frequency range then starts dimming again due to being out of resonance*
 
 > Virtual vs Actual values comparison
