@@ -1,5 +1,7 @@
 ## STM32F103C6 Code, There's a separate folder for Atmega328 (Arduino) firmware testing for prototype
 
+![ArduinoFirmware](/codesinglephase)
+
 ## PWM generation
 
 TIM1 clock = APB2 clock = 72MHz (PSC = 0). `ARR = 845` gives
