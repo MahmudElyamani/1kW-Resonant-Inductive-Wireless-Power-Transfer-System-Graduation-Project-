@@ -20,7 +20,7 @@
 - [WPT Coil Design (AutoCAD)](WPT%20Coil%20design)
 - [System Modeling (MATLAB/Simulink)](docs/simulink-model.md)
 - [Power Electronics (Altium, SiC H-bridge)](docs/power-electronics.md)
-- [Embedded Control (STM32)](docs/control-firmware.md)
+- [Embedded Control (STM32)/(Atmega328)](Firmware)
 - [Full Project Book (PDF)](docs/project-book.pdf) 
 
 ---
@@ -58,14 +58,6 @@ The system was tested across **52 distinct misalignment positions** (horizontal,
 
 Full derivation of the governing equations (coupling coefficient, mutual inductance, resonant condition, SS-topology efficiency) is in [`docs/methodology.md`](docs/methodology.md).
 
-## 🏗️ System Overview
-
-The build breaks into four subsystems, each documented in depth:
-
-1. **[System Modeling](docs/simulink-model.md)** — MATLAB/Simulink model used to calculate coil/compensation parameters and cross-check simulation results
-2. **[Electromagnetic Design](docs/em-simulation.md)** — Ansys Maxwell 3D + Simplorer field simulation, misalignment sweep (52 positions)
-3. **[Power Electronics](docs/power-electronics.md)** — Altium-designed H-bridge inverter, SiC MOSFETs, IR2110 gate drive, isolation
-4. **[Embedded Control](docs/control-firmware.md)** — STM32F401 firmware generating the high-frequency switching signal
 
 ---
 
