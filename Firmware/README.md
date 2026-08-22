@@ -1,6 +1,6 @@
 ## STM32F103C6 Code, There's a separate folder for Atmega328 (Arduino) firmware testing for prototype
 
-![ArduinoFirmware](codesinglephase)
+![ArduinoFirmware](Atmega328/)
 
 ## PWM generation
 
