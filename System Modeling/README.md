@@ -53,4 +53,4 @@ The graph below shows one example set of readings pulled from the model during d
 | Output Voltage of the Secondary | 119.8 V |
 | Output Current of the Secondary (load dependent) | 31.18 A |
 
-> **Note:** these particular numbers were captured during model development/testing and are **not** the final prototype's operating point — see [`docs/methodology.md`](Results) and the main [README](../README.md) for the validated final results (823 W, 77.5% efficiency).
+> **Note:** these particular numbers were captured during model development/testing and are **not** the final prototype's operating point — see [`Results`](../Results) and the main [README](../README.md) for the validated final results (823 W, 77.5% efficiency).
