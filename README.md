@@ -56,9 +56,6 @@ The system was tested across **52 distinct misalignment positions** (horizontal,
 ![coil and compensation topology selection flowchart](media/Flowchartprint.png)
 *The algorithm used to size the coil windings (turns, Litz wire length) and select a compensation topology (SS/SP/PP/PS) based on required power capability, alignment tolerance, and frequency sensitivity. SS was ultimately selected for its independent capacitor sizing, stable voltage-source characteristics, and built-in short-circuit protection.*
 
-Full derivation of the governing equations (coupling coefficient, mutual inductance, resonant condition, SS-topology efficiency) is in [`docs/methodology.md`](docs/methodology.md).
-
-
 ---
 
 ## 📊 Key Results
