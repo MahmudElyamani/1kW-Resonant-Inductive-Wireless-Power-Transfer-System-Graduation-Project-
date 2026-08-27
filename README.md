@@ -19,9 +19,9 @@
 - [Electromagnetic Simulation (Ansys Maxwell)](Electromagnetics)
 - [WPT Coil Design (AutoCAD)](WPT%20Coil%20design)
 - [System Modeling (MATLAB/Simulink)](System%20Modeling)
-- [Power Electronics (Altium, SiC H-bridge)](docs/power-electronics.md)
+- [Power Electronics (Altium, SiC H-bridge)](Hardware)
 - [Embedded Control (STM32)/(Atmega328)](Firmware)
-- [Full Project Book (PDF)](docs/project-book.pdf) 
+- [Full Project Book (PDF)](WPT-Book.pdf) 
 
 ---
 
