@@ -18,7 +18,7 @@
 - [Virtual & Physical output Results (MATLAB)](Results)
 - [Electromagnetic Simulation (Ansys Maxwell)](Electromagnetics)
 - [WPT Coil Design (AutoCAD)](WPT%20Coil%20design)
-- [System Modeling (MATLAB/Simulink)](docs/simulink-model.md)
+- [System Modeling (MATLAB/Simulink)](System%20Modeling)
 - [Power Electronics (Altium, SiC H-bridge)](docs/power-electronics.md)
 - [Embedded Control (STM32)/(Atmega328)](Firmware)
 - [Full Project Book (PDF)](docs/project-book.pdf) 
