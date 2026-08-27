@@ -27,4 +27,4 @@ This is the H-bridge switching stage that generates the high-frequency drive sig
 
 ## Bill of Materials
 
-The full BOM, broken down per board and matching the production-cost breakdown in the project book, lives at [`BOM.pdf`](BOM.pdf):
+The full BOM, broken down per board and matching the production-cost breakdown in the project book, lives at [`WPT Project Core Cost.pdf`](WPT%20Project%20Core%20Cost.pdf):
