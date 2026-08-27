@@ -15,7 +15,7 @@
 
 ## 📚 Documentation
 
-- [Design Methodology & Equations](docs/methodology.md)
+- [Virtual & Physical output Results](Results)
 - [Electromagnetic Simulation (Ansys Maxwell)](docs/em-simulation.md)
 - [WPT Coil Design (AutoCAD)](WPT%20Coil%20design)
 - [System Modeling (MATLAB/Simulink)](docs/simulink-model.md)
